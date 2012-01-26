@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'db_host';
-$db['default']['username'] = 'db_user';
-$db['default']['password'] = 'db_pass';
-$db['default']['database'] = 'db_name';
+$db['default']['hostname'] = 'db01-share';
+$db['default']['username'] = 'CodeIgnite-25923';
+$db['default']['password'] = 'advisement';
+$db['default']['database'] = 'advise_phpfogapp_com';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
