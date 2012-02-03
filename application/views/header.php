@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Student Advisement</title>
+		<title>Advisement<?php echo ' - ' . $title; ?></title>
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -13,12 +13,20 @@
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
 				<div class="container">
-					<a class="brand" href="#">Student Advisement</a>
+					<a class="brand" href="<?php echo site_url(); ?>">Student Advisement</a>
 					<ul class="nav">
-						<li class="active"><a href="#"><i class="icon-signal icon-white"></i>Dashboard</a></li>
-						<li><a href="#"><i class="icon-user icon-white"></i>Students</a></li>
-						<li><a href="#"><i class="icon-list-alt icon-white"></i>Distribution Sheets</a></li>
-						<li><a href="#"><i class="icon-calendar icon-white"></i>Schedules</a></li>
+						<li <?php if($active == 1){ echo 'class="active"'; } ?>>
+							<a href="<?php echo site_url("dashboard"); ?>"><i class="icon-signal icon-white"></i>Dashboard</a>
+						</li>
+						<li <?php if($active == 2){ echo 'class="active"'; } ?>>
+							<a href="<?php echo site_url("students"); ?>"><i class="icon-user icon-white"></i>Students</a>
+						</li>
+						<li <?php if($active == 3){ echo 'class="active"'; } ?>>
+							<a href="<?php echo site_url("sheets"); ?>"><i class="icon-list-alt icon-white"></i>Distribution Sheets</a>
+						</li>
+						<li <?php if($active == 4){ echo 'class="active"'; } ?>>
+							<a href="<?php echo site_url("schedules"); ?>"><i class="icon-calendar icon-white"></i>Schedules</a>
+						</li>
 		            </ul>
 				</div>
 			</div>
