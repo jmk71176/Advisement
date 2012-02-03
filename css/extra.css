@@ -1,20 +1,14 @@
-html, body {
-   background-color: #eee;
-}
 body {
 	padding-top: 60px;
 }
-.container > .content {
-   background-color: #fff;
-   padding: 20px;
-   margin: -20px -20px 0px -20px;
-   -webkit-border-radius: 0 0 6px 6px;
-      -moz-border-radius: 0 0 6px 6px;
-           border-radius: 0 0 6px 6px;
-   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
-           box-shadow: 0 1px 2px rgba(0,0,0,.15);
+.charts [class*="span"] {
+	background-color: #eee;
+	text-align: center;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	line-height: 30px;
 }
-.container > .content > h1 {
-   margin-bottom: 20px;
+ul.nav > li > a > i {
+	margin-right: 5px;
 }

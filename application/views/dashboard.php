@@ -1,27 +1,47 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Advisement</title>
-		<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
-		<link href="/css/extra.css" rel="stylesheet" type="text/css">
-	</head>
-	<body>
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="brand" href="#">Advisement</a>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="content">
-				<h1>Dashboard</h1>
-				<p>This application is currently under development, check back soon.</p>
-			</div>
-		</div>
-	</body>
-</html>
+<div class="row charts" >
+	<div class="span4">Student Breakdown<div id="holder1"></div></div>
+	<div class="span4">Incoming Students<div id="holder2"></div></div>
+	<div class="span4">Students Per Advisor<div id="holder3"></div></div>
+</div>
+<div class="row" >
+	<div class="span12" style="margin-top: 20px;">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<td>First Name</td>
+					<td>Last Name</td>
+					<td>Email</td>
+					<td>Phone</td>
+					<td>Major</td>
+					<td>Status</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Jonathan</td>
+					<td>O'Brien</td>
+					<td>OBR7522@calu.edu</td>
+					<td>123-456-7890</td>
+					<td>Computer Information Systems</td>
+					<td>Senior</td>
+				</tr>
+				<tr>
+					<td>Ben</td>
+					<td>Shaffer</td>
+					<td>SHA8961@calu.edu</td>
+					<td>123-456-7890</td>
+					<td>Computer Information Systems</td>
+					<td>Senior</td>
+				</tr>
+				<tr>
+					<td>Jason</td>
+					<td>Kirsch</td>
+					<td>KIR3139@calu.edu</td>
+					<td>123-456-7890</td>
+					<td>Computer Information Systems</td>
+					<td>Senior</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
